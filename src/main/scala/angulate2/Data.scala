@@ -1,3 +1,12 @@
+// XXX: split this macro out to it's own project; it is very useful outside of angular use cases
+// See Gitter message from Haoyi
+// Li Haoyi @lihaoyi Feb 11 02:03
+// @virtualirfan Remember how you asked me if it was possible to transparently use case-classes on the server and have them be represented by plain-old-javascript-objects on the client for seamless interop with 3rd party code?
+// looks like someone did it https://github.com/jokade/angulate2#data-annotation
+// maybe someone can pull out that annotation macro and publish it separately, since it looks pretty useful regardless of angular or not https://github.com/jokade/angulate2/blob/master/src/main/scala/angulate2/Data.scala
+
+
+
 //     Project: angulate2 (https://github.com/jokade/angulate2)
 // Description: Angulate2 extension for definition of data objects/classes via an @Data annotation
 
